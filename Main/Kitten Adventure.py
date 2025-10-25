@@ -158,16 +158,20 @@ menu_cat_x, menu_cat_y = 400, 550
 for direction in kittenFramesStill:
     size = vertical_size if direction in ["up", "down"] else normal_size
     kittenFramesStill[direction] = [
-        pygame.transform.scale(pygame.image.load(frame).convert_alpha(), size)
+        pygame.transform.scale(
+            pygame.image.load(os.path.join("Sprites", frame)).convert_alpha(), size
+        )
         for frame in kittenFramesStill[direction]
     ]
+
 for direction in kittenFramesRunning:
     size = vertical_size if direction in ["up", "down"] else normal_size
     kittenFramesRunning[direction] = [
-        pygame.transform.scale(pygame.image.load(frame).convert_alpha(), size)
+        pygame.transform.scale(
+            pygame.image.load(os.path.join("Sprites", frame)).convert_alpha(), size
+        )
         for frame in kittenFramesRunning[direction]
     ]
-
 
 current_frames = kittenFramesStill[current_direction]
 

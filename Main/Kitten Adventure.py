@@ -111,19 +111,19 @@ kittenFramesStill = {
     "down_left": ["sprite (7).png", "sprite (8).png", "sprite (9).png", "sprite (10).png", "sprite (11).png", "sprite (12).png"],
     "down_right": ["sprite (44).png", "sprite (45).png", "sprite (46).png", "sprite (47).png", "sprite (48).png", "sprite (49).png"]
 }
-jellyfishFloat = [pygame.transform.scale(pygame.image.load(f).convert_alpha(), (40, 40)) for f in
+jellyfishFloat = [pygame.transform.scale(pygame.image.load("Sprites/" + f).convert_alpha(), (40, 40)) for f in
                   ["sprite (50).png", "sprite (51).png", "sprite (52).png", "sprite (53).png", "sprite (54).png"]]
 
-jellyfishDeath = [pygame.transform.scale(pygame.image.load(f).convert_alpha(), (40, 40)) for f in
+jellyfishDeath = [pygame.transform.scale(pygame.image.load("Sprites/" + f).convert_alpha(), (40, 40)) for f in
                   ["sprite (55).png", "sprite (56).png", "sprite (57).png", "sprite (58).png", "sprite (59).png", "sprite (60).png", "sprite (61).png"]]
 
-menuSittingCat = [pygame.transform.scale(pygame.image.load(f).convert_alpha(), (200, 200)) for f in
+menuSittingCat = [pygame.transform.scale(pygame.image.load("Sprites/" + f).convert_alpha(), (200, 200)) for f in
                   ["sprite (12).png"]]
 
-menuLookingAroundCat = [pygame.transform.scale(pygame.image.load(f).convert_alpha(), (200, 200)) for f in
+menuLookingAroundCat = [pygame.transform.scale(pygame.image.load("Sprites/" + f).convert_alpha(), (200, 200)) for f in
                         ["sprite03.png", "sprite04.png", "sprite05.png", "sprite04.png", "sprite03.png", "sprite02.png", "sprite01.png", "sprite02.png", "sprite03.png", "sprite04.png", "sprite03.png"]]
 
-menuLyingDownCat = [pygame.transform.scale(pygame.image.load(f).convert_alpha(), (200, 200)) for f in
+menuLyingDownCat = [pygame.transform.scale(pygame.image.load("Sprites/" + f).convert_alpha(), (200, 200)) for f in
                     ["sprite001.png", "sprite002.png", "sprite003.png", "sprite004.png", "sprite005.png", "sprite006.png", "sprite007.png", "sprite008.png"]]
 
 

@@ -79,7 +79,7 @@ python "Kitten Adventure.py"
 ## ⚖️ License
 
 Released under the [MIT License](LICENSE)
-Feel free to use or modify it — just credit **Adda**.
+Feel free to use or modify it — just credit **ItsAdda**.
 
 ---
 

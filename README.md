@@ -56,7 +56,6 @@ python "Kitten Adventure.py"
 * 🐟 **New areas**: forest, beach, and cave biomes
 * 💎 **Collectibles** and secret treasures
 * 👾 **Boss battles** (giant jellyfish and crabs)
-* 
 ---
 
 
